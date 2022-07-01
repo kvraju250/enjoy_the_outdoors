@@ -36,13 +36,13 @@
       </nav>
 
       
-    <div class="hero container-fluid">
+    <div class="hero1 container-fluid">
         <div class="text-center">
         <h1 class= "text-center text-white">National Parks Search</h1>
-        <select id="parksSearch" >
+        <select id="parksSearch" class="bg-light" >
             <option selected>Select Option</option>
-            <option value="location">Location</option>
-            <option value="type">Type</option>           
+            <option value="location">Search By Location</option>
+            <option value="type">Search By Park Type</option>           
         </select>
 
         <select id="locationList" class="d-none" >
@@ -58,7 +58,7 @@
     </div>
 
     
-    <table class="table d-none table-bordered" id="locationTable">
+    <table class="table d-none table-bordered bg-light text-center" id="locationTable">
             
         <thead>
             <tr class="thead-dark">
@@ -75,7 +75,7 @@
         </tbody>
     </table>
 
-    <table class="table d-none table-bordered" id="typeTable">
+    <table class="table d-none table-bordered bg-light text-center" id="typeTable">
             
         <thead>
             <tr class="thead-dark">

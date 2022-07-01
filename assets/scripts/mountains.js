@@ -28,7 +28,7 @@ function generateMountainCardData(filteredMountain) {
      mountainCardData.innerHTML += `<img src="/assets/images/mountains/${filteredMountain[0].img}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                     <h5 class="card-title">${filteredMountain[0].name}</h5>
-                                    <p class="card-text">${filteredMountain[0].desc}</p>
+                                    <p class="card-text"><b>About Me</b> : ${filteredMountain[0].desc}</p>
                                     <p class="card-text">Elevation: ${filteredMountain[0].elevation}</p>
                                     <p class="card-text">Latitude: ${filteredMountain[0].coords.lat}</p>
                                     <p class="card-text">Latitude: ${filteredMountain[0].coords.lng}</p>                                    
